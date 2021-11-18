@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+* {
+    text-align: justify;
+}
+
+body {
+    background-color: rgb(244, 255, 221);
+}
+
+main{
+    background-color: white;
+
+}
+
+h1{
+    color: rgb(154, 205, 50);
+    font-size: 1.5em;
+}
+
+h1#principal {
+    background-color: yellowgreen;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+

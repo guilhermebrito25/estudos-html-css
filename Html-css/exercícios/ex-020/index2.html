@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo.classes/elementos</title>
+    <style>
+       #mensagem{
+           display: none;
+       }
+
+       div:hover > #mensagem{
+            display: block;
+            background-color: tomato;
+            width: 100px;
+       }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Passe o mouse para revelar a mensagem escondida!</h1>
+    <div>
+        <p>Passe o mouse AQUI!</p>
+        <P id="mensagem">Surpresa</P>
+    </div>
+</body>
+</html>

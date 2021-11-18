@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias dinâmicas</title>
+</head>
+<body>
+    <h1>Colocando conteúdos como imagem, aúdios e vídeos!</h1>
+    <h2>Imagens no site!</h2>
+    <p>Tente abrir essa página em vários dispositivos, ou então aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" alt="Policial">
+    </picture>
+
+    <h2>Aúdios e Músicas!</h2> 
+    <p>Vamos escutar uma música</p>
+    <audio src="musicas-audios/Creeping Up on You - Godmode.mp3" controls>Música sem direitos autorais!</audio>
+    <!--MP3 WAV OGG-->
+    <audio preload="metadata" controls loop>
+        <source src="musicas-audios/Creeping Up on You - Godmode.mp3" type="audio/mp3">
+    </audio>
+
+    <h2>Vídeos para assistir hospedado no meu servidor</h2>
+    <p>Vamos ver alguns vídeos.</p>
+    <video width="450" poster="imagens/pequena.png" controls autoplay loop>
+        <source src="videos/limao.mp4" type="video/mp4">
+    </video>
+
+    <h2>Esse video é de um servidor externo.</h2>
+    <p>Esse vídeo está hospedado no YouTube</p>
+    <iframe width="450" height="315" src="https://www.youtube.com/embed/DIraePpIAog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
